@@ -5,7 +5,7 @@ export const data: Product[] = [
     id: "1",
     name: "Pipedrive",
     slug: "pipedrive-crm",
-    logoUrl: "",
+    logoUrl: "https://picsum.photos/seed/pipedrive/40",
     productScoring: {
       stackfixScore: 8,
       fitScore: 87,
@@ -28,7 +28,7 @@ export const data: Product[] = [
     id: "2",
     name: "Salesforce",
     slug: "salesforce-crm",
-    logoUrl: "",
+    logoUrl: "https://picsum.photos/seed/salesforce/40",
     productScoring: {
       stackfixScore: 5,
       fitScore: 75,

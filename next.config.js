@@ -18,6 +18,16 @@ const config = {
     defaultLocale: "en",
   },
   transpilePackages: ["geist"],
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "picsum.photos",
+        port: "",
+        pathname: "/seed/**",
+      },
+    ],
+  },
 };
 
 export default config;
