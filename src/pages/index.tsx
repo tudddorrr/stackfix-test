@@ -2,7 +2,7 @@ import Head from "next/head";
 import { api } from "~/utils/api";
 
 export default function Home() {
-  // const products = api.product.getAll.useQuery()
+  // const { data: products } = api.product.getAll.useQuery()
 
   return (
     <>
