@@ -11,7 +11,10 @@ export default function Home() {
         <meta name="description" content="stackfix.com" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>{/* TODO: Your code here */}</main>
+      <main className="p-5">
+        <h1 className="text-xl">Stackfix Live Challenge</h1>
+        {/* TODO: Your code here */}
+      </main>
     </>
   );
 }
