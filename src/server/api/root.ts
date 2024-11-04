@@ -1,4 +1,4 @@
-import { productRouter } from "./routers/product";
+import { productRouter } from "./routers/product/router";
 import { createCallerFactory, createTRPCRouter } from "./trpc";
 
 /**
